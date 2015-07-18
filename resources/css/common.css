@@ -253,3 +253,45 @@ a { text-decoration: none; color: #333;}
     font-size: 3rem;
     text-align: center;
 }
+
+/* Content types */
+.cont {
+    padding: 2.5rem 0 0;
+}
+.cont p {
+    margin: 1.5rem 0;
+}
+.cont p:first-child,
+.cont .cont-inner p:first-child {
+    margin: 0 0 1.5rem;
+}
+.cont img {
+    display: block;
+    font: 0/0 Dotum;
+    padding: 0.5rem;
+    border: 0.1rem solid #bbb;
+    background: #eee;
+}
+.stit_cont {
+    margin: 0 0 1rem;
+    font-size: 1.8rem;
+    border-bottom: 0.1rem solid #bbb;
+}
+.cont.type02 img {
+    width: 50rem;
+    margin: 0 auto 1.5rem;
+}
+.cont.type03 .cont_inner:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+.cont.type03 img {
+    width: 40%;
+    margin: 0 1.5rem 1.5rem 0;
+    float: left;
+}
+.cont.type03.odd img {
+    float: right;
+    margin: 0 0 1.5rem 1.5rem;
+}
